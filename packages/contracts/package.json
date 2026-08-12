@@ -1,0 +1,21 @@
+{
+  "name": "@tarea/contracts",
+  "version": "0.0.1",
+  "description": "Contrato compartido de la API: esquemas Zod y tipos para REST y tRPC.",
+  "private": true,
+  "license": "UNLICENSED",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}
